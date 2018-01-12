@@ -1,0 +1,153 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+    <title>Top Games</title>
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="/js/deep.js"></script>
+    
+</head>  
+<body> 
+	<div class="footer">
+    <div class="footer_link">
+      <ul class="footer_link_column">
+                <li><a href="#">• 2 Player Games</a></li>
+                <li><a href="#">• Addicting Games</a></li>
+                <li><a href="#">• Adventure Games</a></li>
+                <li><a href="#">• BMX Games</a></li>
+                <li><a href="#">• Barbie Dress Up</a></li>
+                <li><a href="#">• Barbie Games</a></li>
+                <li><a href="#">• Basketball Games</a></li>
+                <li><a href="#">• Best Games</a></li>
+                <li><a href="#">• Bike Games</a></li>
+                <li><a href="#">• Brain Games</a></li>
+         </ul>
+        <ul class="footer_link_column">     
+                <li><a href="#">• Brain Teasers</a></li>
+                <li><a href="#">• Bubble Shooter</a></li>
+                <li><a href="#">• Business Games</a></li>
+                <li><a href="#">• Classic Games</a></li>
+                <li><a href="#">• Cooking Games</a></li>
+                <li><a href="#">• Dirt Bike Games</a></li>
+                <li><a href="#">• Dress Up Games</a></li>
+                <li><a href="#">• Driving Games</a></li>
+                <li><a href="#">• Flash Games</a></li>
+                <li><a href="#">• Flying Games</a></li>
+       </ul>
+        <ul class="footer_link_column">        
+                <li><a href="#">• Football Games</a></li>
+                <li><a href="#">• Free Games</a></li>
+                <li><a href="#">• Free Games Download</a></li>
+                <li><a href="#">• Free PC Games</a></li>
+                <li><a href="#">• Fun Games</a></li>
+                <li><a href="#">• Funny Games</a></li>
+                <li><a href="#">• Jigsaw Puzzles</a></li>
+                <li><a href="#">• Logic Games</a></li>
+                <li><a href="#">• Mahjong Games</a></li>
+                <li><a href="#">• Math Games</a></li>
+      </ul>
+      <ul class="footer_link_column">
+                <li><a href="#">• Mind Games</a></li>
+                <li><a href="#">• Minecraft Games</a></li>
+                <li><a href="#">• Monster Truck Games</a></li>
+                <li><a href="#">• Multiplayer Games</a></li>
+                <li><a href="#">• New Games</a></li>
+                <li><a href="#">• Plane Games</a></li>
+                <li><a href="#">• Pool Games</a></li>
+                <li><a href="#">• Sniper Games</a></li>
+                <li><a href="#">• Solitaire Games</a></li>
+      </ul>
+      
+    </div>
+     	<div class="footer_scl">
+      		<ul>
+      			<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+      			<li><a href="#"><i class="fa fa-youtube"></i></a></li>
+      			<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+      			<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+      		</ul>
+      		
+      	</div>
+     
+      	
+    </div>
+
+ </div> 
+</body>  
+</html>  
+
+
+
+*************CSS*************
+.footer {
+
+  background-color: #0b0101;
+
+  width: 100%;
+ 
+}
+.footer_link{
+ width: 1170px;
+  margin: auto;
+  display: flex;
+justify-content: space-between;
+
+}
+.footer_link ul{
+	list-style: none;
+	margin: 0;
+		padding: 10px 40px;
+	background-color: black;
+	overflow: hidden;
+
+}
+.footer_link ul li{
+	padding: 2px;
+}
+.footer_link ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 14px 16px;
+	
+	font-size: 15px;
+
+}
+.footer_link ul li a:hover{
+	color: grey;
+
+-webkit-transition:  0.2s ease-in-out;
+    -webkit-transform: 0.5s ease-in-out; /* Chrome, Safari, Opera*/ 
+    transform: 0.5s ease-in-out;
+}
+
+.footer_scl ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	background-color: black;
+	overflow: hidden;
+	text-align: center;
+}
+
+.footer_scl ul li{
+	display: inline-block;
+
+}
+
+.footer_scl ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 14px 16px;
+	display: block;
+}
+
+.footer_scl ul li a:hover{
+
+-webkit-transition:  0.5s ease-in-out;
+-ms-transform: rotate(360deg); /*IE 9*/ 
+    -webkit-transform: rotate(360deg); /* Chrome, Safari, Opera*/ 
+    transform: rotate(360deg);
+}
+
+}
